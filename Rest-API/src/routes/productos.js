@@ -10,6 +10,7 @@ router.get(('/'), (req, res) => {
         }
         res.json({"productos":results});
     }); 
+    conexion.end();
 });
 
 

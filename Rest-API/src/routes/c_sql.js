@@ -16,5 +16,5 @@ conexion.connect(function(error){
 
 
 
-conexion.end();
+
 module.exports = conexion
