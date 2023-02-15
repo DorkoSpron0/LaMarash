@@ -1,5 +1,6 @@
 const {Router} = require('express');
 const router = Router();
+const conexion = require("./c_sql");
 
 //ROUTES 
 router.get(('/index'), (req, res) => {
