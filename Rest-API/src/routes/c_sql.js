@@ -1,12 +1,12 @@
 const mysql = require('mysql2');
-const conexion = mysql.createConnection({
+const pool = mysql.createPool({
     host: 'localhost',
     database: 'lamarsh',
     user:'root',
     password: ''
 });
 
-conexion.connect(function(error){
+pool.getConnection(function(error){
     if(error){
         throw error;
     }else{
@@ -17,4 +17,4 @@ conexion.connect(function(error){
 
 
 
-module.exports = conexion
+module.exports = pool
