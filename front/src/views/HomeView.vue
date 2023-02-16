@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <HelloWorld/>
+    <listProduct/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import listProduct from '@/components/listProduct.vue'
 import axios from 'axios'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    listProduct
   }
 }
 </script>
