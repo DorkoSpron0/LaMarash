@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -13,11 +13,6 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  },
-  created(){
-    axios.get('http://localhost:3000/productos')
-      .then(resp => console.log(resp.data))
-      .catch(err => console.error(err))
   }
 }
 </script>
