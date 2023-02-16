@@ -31,3 +31,5 @@ CREATE TABLE Ventas(
     foreign key(idCliente) REFERENCES Clientes(id),
     foreign key(idProducto) references Productos(id)
 );
+
+INSERT INTO productos(nombre, precio, cantidad, descripcion, fabricante) VALUES ("Procesador intel core i5-3470", 35, 5, "El producto está reacondicionado, es totalmente funcional y se encuentra en excelente estado. Respaldado por la garantía de 90 dias", "INTEL");
