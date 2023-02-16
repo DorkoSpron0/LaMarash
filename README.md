@@ -24,5 +24,5 @@ Para ejecutar el servidor de FRONT sigue estos pasos:
 ### NOTA
 ~~~
 El servidor frontEnd solo mostrará información si se está ejecutando los dos servidores al mismo tiempo.
-Para esto sigue los dos pasos anteriores
+Para esto sigue los dos pasos anteriores.
 ~~~
