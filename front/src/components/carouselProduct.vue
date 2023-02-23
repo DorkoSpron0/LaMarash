@@ -20,10 +20,13 @@ export default {
                             <img src="../assets/mando.jpg" class="img-fluid miImagen" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/ram.jpg" class="img-fluid miImagen" alt="...">
+                            <img src="https://img.pccomponentes.com/pcblog/5301/marcas-exclusivas-pccomponentes-1.png" class="img-fluid miImagen" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="../assets/logo.png" class="img-fluid miImagen" alt="...">
+                            <img src="https://img.pccomponentes.com/pcblog/1676847600000/especial-pantallas-1560x284-2.jpg" class="img-fluid miImagen" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://http2.mlstatic.com/D_NQ_772428-MLA53886240185_022023-OO.webp" class="img-fluid miImagen" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -43,11 +46,11 @@ export default {
 <style>
 
 .miImagen{
-    margin-left: 70px;
-    max-width: 90%;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-:root{ --swiper-theme-color: red !important}
 
 
 </style>

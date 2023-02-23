@@ -14,12 +14,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
+              <a class="nav-link active" aria-current="page"><router-link class="linkM" to="/">Inicio</router-link></a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page"><router-link class="linkM" to="/productos">Productos</router-link></a>
             </li>
           </ul>
         </div>
         <router-link to="/perfil" class="icon linkM" ><font-awesome-icon icon="fa-solid fa-user"/> Mi cuenta</router-link>
-        <router-link to="/perfil" class="icon linkM" ><font-awesome-icon icon="fa-solid fa-cart-shopping"/> Mi cuenta</router-link>
+        <router-link to="/perfil" class="icon linkM" ><font-awesome-icon icon="fa-solid fa-cart-shopping"/> Mi Carrito</router-link>
       </div>
     </nav>
   </nav>
@@ -29,9 +32,11 @@
 <style>
 
 .linkM {
+  
   text-decoration: dashed;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .icon{
