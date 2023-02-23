@@ -11,17 +11,23 @@
       </li>
     </ul> -->
 
-    <div class="card" v-for="producto in productos" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">{{ producto.nombre.toUpperCase() }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ producto.fabricante }}</h6>
-        <p class="card-text">{{ producto.descripcion }}</p>
-        <h5 class="card-subtitle text-end">{{ producto.precio }}$</h5>
-        <p  class="text-end"><router-link to="/compras">Comprar</router-link></p>
+    <div class="row">
+
+      <div class="col-md-3"  v-for="producto in productos">
+        <div class="card mt-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ producto.nombre.toUpperCase() }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ producto.fabricante }}</h6>
+            <p class="card-text">{{ producto.descripcion }}</p>
+            <h5 class="card-subtitle text-end">{{ producto.precio }}$</h5>
+            <p class="text-end"><router-link to="/compras">Comprar</router-link></p>
+          </div>
+        </div>
       </div>
+
     </div>
 
-</div>
+  </div>
 </template>
 
 <script>
