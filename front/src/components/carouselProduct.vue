@@ -20,17 +20,20 @@ export default {
                             <img src="../assets/mando.jpg" class="img-fluid miImagen" alt="...">
                         </div>
                         <div class="carousel-item">
+                            <img src="../assets/ram.jpg" class="img-fluid miImagen" alt="...">
+                        </div>
+                        <div class="carousel-item">
                             <img src="../assets/logo.png" class="img-fluid miImagen" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                         data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
@@ -39,9 +42,12 @@ export default {
 
 <style>
 
-.miImagen{ 
-    max-width: 100%;
+.miImagen{
+    margin-left: 70px;
+    max-width: 90%;
 }
+
+:root{ --swiper-theme-color: red !important}
 
 
 </style>
